@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body><div>
+
+    <table>
+        <thead>
+            <caption>
+                classes and subjects of a school
+            </caption>
+            <tr>
+                <th> sno</th>
+                <th colspan="1"> Class</th>
+                <th>Subject</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> 1</td>
+                <td> 10</td>
+                <td> maths</td>
+            </tr>
+            <tr>
+                <td> 2</td>
+                <td> 10</td>
+                <td> science</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>10</td>
+                <td>social</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>10</td>
+                <td>health</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div>
+    <h1>Travel form </h1>
+    <form action="form.php">
+        <input type="text" placeholder="Search">
+        <label for="sectionida">
+            <input type="radio" value="Section a" name= "section" id= "sectionida">Section a
+        </label>
+        <label for="sectionidb">
+            <input type="radio" value="Section b" name="section" id="sectionidb">Section b       
+         </label> <br>
+         <label for="sectionidc">
+            <input type="date"  name="section" value="Section c" id = "sectionidc" class="red">
+         </label>
+         <label for="select"><hr>
+            <select name="subject" id="select" >
+                <option value="no thing">Select your subject</option>
+                <option value="math">Math</option>
+                <option value="science">Science</option>
+                <option value="social">Social</option>
+                <option value="science">Health</option>
+            </select>
+         </label>
+    </form>
+</div>
+
+</body>
+
+</html>
